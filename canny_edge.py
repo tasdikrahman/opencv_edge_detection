@@ -1,4 +1,5 @@
 import argparse
+
 import cv2
 import numpy as np
 
@@ -26,7 +27,8 @@ def resize_to_screen(src, maxw=1380, maxh=600, copy=False):
 
     return img
 
-image = cv2.imread(args["image"])
+image_name = args["image"]
+image = cv2.imread(image_name)
 image = resize_to_screen(image)
 
 gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
@@ -41,6 +43,6 @@ print "Contours in the image, %d" % (len(cnts))
 shape = image.copy()
 cv2.drawContours(shape, cnts, -1, (0, 255, 0), 2)
 cv2.imshow("Edges", shape)
-cv2.imwrite("canny_edge_img.jpg", shape)
+cv2.imwrite("output.jpg", shape)
 
 cv2.waitKey(0)
