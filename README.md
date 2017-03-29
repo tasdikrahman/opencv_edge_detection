@@ -22,7 +22,6 @@ $ cd opencv_edge_detection && workon cv
 
 ## Canny Edge
 
-
 <p align="center">
     <b>Sample input</b>
 </p>
@@ -35,6 +34,23 @@ $ cd opencv_edge_detection && workon cv
 </p>
 
 ![Alt](https://github.com/prodicus/opencv_edge_detection/raw/master/test_output/canny_edge/win_frnds_blue.jpg)
+
+## Laplace and Sobel
+
+<p align="center">
+    <b>Sample input</b>
+</p>
+
+![Alt](https://github.com/prodicus/opencv_edge_detection/raw/master/test_input/win_frnds_blue.jpg)
+
+
+<p align="center">
+    <b>Sample output</b>
+</p>
+
+![Alt](https://github.com/prodicus/opencv_edge_detection/raw/master/test_output/laplace_and_sobel/sobel_xy_combined.jpg)
+
+
 
 # License
 

@@ -39,6 +39,7 @@ sobelx = np.uint8(np.absolute(sobelx))
 sobely = np.uint8(np.absolute(sobely))
 sobelcombined = cv2.bitwise_or(sobelx, sobely)
 #cv2.imshow("sobel combined", sobelcombined)
+cv2.imwrite("output1.jpg", sobelcombined)
 
 (_, cnts, _) = cv2.findContours(sobelcombined.copy(), cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
 
