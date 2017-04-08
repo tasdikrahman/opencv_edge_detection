@@ -26,6 +26,7 @@ Relevant links
 - [CS Arizona's Image Analysis](http://vision.cs.arizona.edu/nvs/research/image_analysis/edge.html)
 - [CS Arizona's Canny docs](http://vision.cs.arizona.edu/nvs/courses/ece532/cannydoc/html/index.html)
 - [Austin G Walters Edge-detection explanation](http://austingwalters.com/edge-detection-in-computer-vision/)
+- [Tool to extract news articles from newspaper and give the context about the news](https://github.com/vipul-sharma20/sharingan/)
 
 ## Setting up the Dev Env
 
